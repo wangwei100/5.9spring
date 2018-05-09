@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="spring_homework.java.com.dao">
+	<resultMap id="BaseResultMap1"
+		type="spring_homework.java.com.homework.KbCity">
+		<id column="_ID_" property="id" jdbcType="INTEGER" />
+		<result column="NAME" property="name" jdbcType="VARCHAR" />
+
+	</resultMap>
+
+	<select id="selectByPrimaryKey" resultMap="BaseResultMap1"
+		parameterType="java.lang.Integer">
+		select
+		*
+		from kb_city
+		where _ID_ = #{id,jdbcType=INTEGER}
+	</select>
+
+</mapper>  
