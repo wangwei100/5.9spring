@@ -1,4 +1,4 @@
-package spring_homework.java.com.dao;
+package com.demohot.homework.dao;
 
 import spring_homework.java.com.po.Work;
 

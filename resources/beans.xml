@@ -6,7 +6,7 @@
 
 	
 	<bean id="workDaoImpl"
-		class="spring_homework.java.com.dao.impl.workDaoImpl"></bean>
+		class="com.demohot.homework.dao.impl.WorkDaoImpl"></bean>
 
 	<bean id="workServiceImpl"
 		class="spring_homework.java.com.service.impl.WorkServiceImpl">

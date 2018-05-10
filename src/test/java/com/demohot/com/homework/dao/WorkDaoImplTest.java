@@ -1,10 +1,11 @@
-package spring_homework.java.com.dao.impl;
+package com.demohot.com.homework.dao;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import spring_homework.java.com.dao.WorkDao;
+import com.demohot.homework.dao.WorkDao;
+
 import spring_homework.java.com.po.Work;
 
 public class WorkDaoImplTest {
