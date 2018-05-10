@@ -4,12 +4,14 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="userDaoImpl" class="spring_homework.java.com.dao.impl.UserDaoImpl"></bean>
+	
+	<bean id="workDaoImpl"
+		class="spring_homework.java.com.dao.impl.workDaoImpl"></bean>
 
-	<bean id="userServiceImpl"
-		class="spring_homework.java.com.service.impl.UserServiceImpl">
-		<property name="name" value="tom" />
-		<property name="password" value="123" />
+	<bean id="workServiceImpl"
+		class="spring_homework.java.com.service.impl.WorkServiceImpl">
+		<property name="title" value="tom" />
+		<property name="price" value="123" />
 	</bean>
 
 </beans>
